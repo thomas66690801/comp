@@ -22,6 +22,20 @@ rails db:migrate
 ```
 
 
+**TEAM MEMBERS**
+>Timothy Cole
+<br/>https://github.com/timothydcole/comp
+<br/>
+
+>Steve SAYO
+<br/>https://github.com/SkyTradeInc/comp
+<br/>
+
+>Thomas LAWRENCE
+<br/>https://github.com/thomas66690801/comp
+<br/>
+
+
 
 **What is the need (i.e. challenge) that you will be addressing in your project?**
 >We are creating an app as a platform between a smartphone/portable media users, who is in need to have their units repair, without having to physically doing the run around checking for prices and availability.
@@ -62,6 +76,9 @@ rails db:migrate
 
 
 **Describe the architecture of your App.**
+![marketplace-architecture.png](/app/assets/images/marketplace_architecture.png)
+/Users/macbookpro/apps/rails/comp/app/assets/images/marketplace_architecture.png
+
 
 
 **Explain the different high-level components (abstractions) in your App.**
@@ -80,10 +97,10 @@ rails db:migrate
 >-Geocoder Rubygem functionality allowing access to geolocation of user and repairers.
 
 >-AWS S3
-Simple Storage Service owned by AWS, pushing all users upload files/images for faster response.
+>Simple Storage Service owned by AWS, pushing all users upload files/images for faster response.
 
 >-Heroku
-Hosting service cloud platform, allowing almost zero downtime, so the site can be access from anywhere, anytime.
+>Hosting service cloud platform, allowing almost zero downtime, so the site can be access from anywhere, anytime.
 
 
 **Describe (in general terms) the data structure of marketplace apps that are similar to your own (e.g. eBay, Airbnb).**
@@ -142,6 +159,13 @@ Hosting service cloud platform, allowing almost zero downtime, so the site can b
 ![11. login-page](/app/assets/images/wireframe-png/login-page11.png)
 
 
+![12. mockup-page](/app/assets/images/adobe-xd-mockup.png)
+
+![13. slack-page](/app/assets/images/slack-convos.jpg)
+
+
+
+
 **Describe the way tasks are allocated and tracked in your project.**
 >Using Kanban(Trello) to monitor milestone, and daily standups, allowing us as a team to concentrate on certain hurdle, while at the same time, keeping track on what other milestone we have to achieve within the project. As the steps are repeated daily, monitoring progress become automated, and realistic.
 >It is through this process we as a team gets to learn from each other's strength.
@@ -165,13 +189,13 @@ Hosting service cloud platform, allowing almost zero downtime, so the site can b
 
 
 **Discuss and analyse requirements related to information system security.**
--Payment module is being han\dled by stripe rubygem.
-This frees the apps from storing financial data of users.
+**Discuss methods you will use to protect information and data.**
+>-Payment module is being han\dled by stripe rubygem.
+>This frees the apps from storing financial data of users.
 
--Mailing is being taken care by mailgun.
-This adds a layer protection against attacks via email such as spams. Mailgun also add efficiency managing large customers base via one mail account.
+>-Mailing is being taken care by mailgun.
+>This adds a layer protection against attacks via email such as spams. Mailgun also add efficiency managing large customers base via one mail account.
+
+>These take care of the security issues on data safety from within our apps.
 
 
-
-
-    Discuss methods you will use to protect information and data.
